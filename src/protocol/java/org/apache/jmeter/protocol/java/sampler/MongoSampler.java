@@ -172,7 +172,7 @@ public class MongoSampler extends AbstractJavaSamplerClient implements Serializa
 
 
 	    if(null==client)
-			throw new Exception("CB Client not initialised");
+			throw new Exception("Mongo Client not initialised");
 
 	    if(method.equals("GET"))	
 	    {
